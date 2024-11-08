@@ -1,0 +1,31 @@
+network:
+  network_type: 'complete'
+  degree: 4
+  alpha: 0.41
+  beta: 0.54 
+  erdos_p: 0.5
+minority:
+  minority_size_set: [0]
+  committment_index: 1
+params:
+  temperature: 0.5
+  runs: 10
+  total_interactions: 1000
+  N: 24
+  initial_composition: 0.95
+  initial: 'None'
+  convergence_time: 72
+  convergence_threshold: 1
+  rewards_set: [[-50, 100]]
+  memory_size_set: [5]
+  options_set: [['Q', 'M']]
+sim:
+  version: 'swap'
+  continue_evolution: False
+  stochastic: True
+  mode: 'api'
+model:
+  model_name: "meta-llama/Meta-Llama-3.1-70B-Instruct"
+  shorthand: "llama31"
+  API_TOKEN: '<YOUR_API_KEY>'   
+  quantized: True
