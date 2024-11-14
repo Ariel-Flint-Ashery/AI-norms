@@ -14,3 +14,5 @@ Note 4: Several files have been saved under different 'shorthands'.
 1. Llama-3.1-70B-Instruct: uses "llama31_70b" for convergence, stability, and CM simulations. Uses "llama31" for individual bias tests and meta testing.
 2. Meta-Llama-3-70B-Instruct: uses "llama3_70b" for convergence, stability, and CM simulations. Uses "llama3" for individual bias tests and meta testing.
 3. Llama-2-70b-chat-hf: uses "llama2_70b" for convergence simulations. All other tests use "llama2".
+
+Note 5: "run_real_player_metaprompting.py" does a meta test on real player data from a real simulation. "meta_prompting_runner".py uses a new script to randomly generate a player and test it.
